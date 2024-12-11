@@ -26,8 +26,8 @@ Follow the steps below to set up the project:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/AlkarizqyRPB/blog_site.git
+   cd blog_site
    ```
 
 2. **Install PHP dependencies**
@@ -55,7 +55,7 @@ Follow the steps below to set up the project:
 6. **Run migrations**
    Set up the database by running migrations:
    ```bash
-   php artisan migrate
+   php artisan migrate --seed
    ```
 
 7. **Build assets**
@@ -73,16 +73,14 @@ Follow the steps below to set up the project:
    ```bash
    php artisan serve
    ```
-   The application should now be accessible at `http://localhost:8000`.
+   The application should now be accessible at `http://localhost:8000`. If you use laragon use the pretty url.
 
 ## Frameworks and Libraries Used
 - **Laravel 11**: Backend framework for building the application.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **Flowbite**: Components library built on Tailwind CSS.
 - **MySQL**: Database for storing application data.
+- **Vite.js**: Frontend build tool for faster and leaner development.
 
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
+## Support
+Jangan lupa untuk beri bintang di repository ini untuk mendukung pengembangan lebih lanjut!
